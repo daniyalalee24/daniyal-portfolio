@@ -1,9 +1,11 @@
-@import "tailwindcss";
-
-/* @tailwind base;
-@tailwind components; */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 body {
   @apply bg-white text-neutral-900 dark:bg-black dark:text-neutral-100 transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
 }

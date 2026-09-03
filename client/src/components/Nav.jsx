@@ -26,7 +26,7 @@ export default function Nav() {
             contact
           </a>
           <a
-            href="/Daniyal_Ali_Resume.pdf"
+            href="/Daniyal_Resume.pdf"
             download
             className="border border-neutral-300 dark:border-neutral-700 rounded px-3 py-1.5 hover:border-neutral-500 dark:hover:border-neutral-400 text-neutral-700 dark:text-neutral-200 transition-colors"
           >

@@ -5,14 +5,15 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ThemeToggle from "./components/ThemeToggle";
+
+import DotGrid from "./components/DotGrid";
 import "./index.css";
 
 function App() {
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10">
+      <DotGrid />
       <Nav />
-      <ThemeToggle />
       <div className="animate-fadeInUp">
         <Hero />
       </div>
