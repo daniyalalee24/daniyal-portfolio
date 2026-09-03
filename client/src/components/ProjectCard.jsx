@@ -1,10 +1,10 @@
 export default function ProjectCard({ project }) {
   return (
-    <div className="border border-neutral-800 rounded-lg p-5 hover:border-neutral-600 transition">
-      <p className="font-mono text-xs text-emerald-400">
+    <div className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-5 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
+      <p className="font-mono text-xs text-emerald-500 dark:text-emerald-400">
         {String(project.order).padStart(2, "0")}
       </p>
-      <h3 className="text-neutral-100 font-medium mt-2">{project.title}</h3>
+      <h3 className="font-medium mt-2">{project.title}</h3>
       <p className="text-neutral-500 text-sm mt-2 leading-relaxed">
         {project.description}
       </p>
@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
         {project.techStack.map((t) => (
           <span
             key={t}
-            className="text-xs text-neutral-400 border border-neutral-800 rounded px-2 py-0.5"
+            className="text-xs text-neutral-500 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 rounded px-2 py-0.5"
           >
             {t}
           </span>
@@ -24,7 +24,7 @@ export default function ProjectCard({ project }) {
             href={project.liveUrl}
             target="_blank"
             rel="noreferrer"
-            className="text-emerald-400 hover:underline"
+            className="text-emerald-500 dark:text-emerald-400 hover:underline"
           >
             live
           </a>
@@ -34,7 +34,7 @@ export default function ProjectCard({ project }) {
             href={project.githubUrl}
             target="_blank"
             rel="noreferrer"
-            className="text-neutral-400 hover:underline"
+            className="text-neutral-500 dark:text-neutral-400 hover:underline"
           >
             github
           </a>

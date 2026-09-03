@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
 body {
-  @apply bg-black text-neutral-100 font-sans;
+  @apply bg-white text-neutral-900 dark:bg-black dark:text-neutral-100 transition-colors duration-300;
 }

@@ -26,8 +26,10 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-16 border-t border-neutral-800">
-      <h2 className="text-sm font-mono text-neutral-500 mb-6">04 · contact</h2>
-      <p className="text-neutral-400 mb-6">
+      <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
+        04 · contact
+      </h2>
+      <p className="text-neutral-600 dark:text-neutral-400 mb-6">
         Open to internships and full-stack roles — reach out.
       </p>
       <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
@@ -37,7 +39,7 @@ export default function Contact() {
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
+          className="w-full bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
         />
         <input
           name="email"
@@ -46,7 +48,7 @@ export default function Contact() {
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
+          className="w-full bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
         />
         <textarea
           name="message"

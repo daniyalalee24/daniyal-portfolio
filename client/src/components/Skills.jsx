@@ -9,18 +9,20 @@ const skillGroups = [
 export default function Skills() {
   return (
     <section id="skills" className="py-16 border-t border-neutral-800">
-      <h2 className="text-sm font-mono text-neutral-500 mb-6">03 · skills</h2>
+      <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
+        03 · skills
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skillGroups.map((group) => (
           <div key={group.label}>
-            <p className="text-neutral-200 text-sm font-medium mb-2">
+            <p className="text-neutral-900 dark:text-neutral-200 text-sm font-medium mb-2">
               {group.label}
             </p>
             <div className="flex flex-wrap gap-2">
               {group.items.map((item) => (
                 <span
                   key={item}
-                  className="text-xs text-neutral-400 border border-neutral-800 rounded px-2 py-1"
+                  className="text-xs text-neutral-500 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 rounded px-2 py-1"
                 >
                   {item}
                 </span>

@@ -10,16 +10,25 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="max-w-4xl mx-auto px-6">
+    <div className="max-w-5xl mx-auto px-6 md:px-10">
       <Nav />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <div className="animate-fadeInUp">
+        <Hero />
+      </div>
+      <div className="animate-fadeInUp">
+        <About />
+      </div>
+      <div className="animate-fadeInUp">
+        <Projects />
+      </div>
+      <div className="animate-fadeInUp">
+        <Skills />
+      </div>
+      <div className="animate-fadeInUp">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
 }
-
 export default App;
