@@ -1,7 +1,7 @@
 export default function ProjectCard({ project }) {
   return (
     <div className="group relative h-full flex flex-col bg-white dark:bg-black border border-neutral-200 dark:border-neutral-800 hover:border-emerald-500 dark:hover:border-emerald-500 rounded-lg p-5 overflow-hidden transition-colors duration-300 cursor-pointer">
-      <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[radial-gradient(circle_at_top_right,theme(colors.emerald.500/10),transparent_50%)]" />
+      <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-300 bg-[radial-gradient(circle_at_top_right,theme(colors.emerald.500/10),transparent_50%)]" />
 
       <div className="relative z-10 flex flex-col h-full">
         <p className="font-mono text-xs text-emerald-500 dark:text-emerald-400 mb-2">

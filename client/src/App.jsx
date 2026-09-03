@@ -9,6 +9,12 @@ import Footer from "./components/Footer";
 import DotGrid from "./components/DotGrid";
 import "./index.css";
 
+// To do for Tomorrow!
+
+// separate the navigation bar so that the dot animation is not present on the navbar
+// add hover effects for all the buttons and links
+// polish all the sections 1 by 1 and add animations to them.
+
 function App() {
   return (
     <div className="max-w-5xl mx-auto px-6 md:px-10">
