@@ -8,9 +8,13 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-16 border-t border-neutral-800">
+    <section
+      id="skills"
+      className="py-16 border-t border-neutral-200 dark:border-neutral-800"
+    >
       <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
-        03 · skills
+        <span className="text-emerald-500 dark:text-emerald-400"> 03 </span>
+        skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skillGroups.map((group) => (

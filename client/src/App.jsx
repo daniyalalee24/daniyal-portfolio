@@ -10,11 +10,6 @@ import DotGrid from "./components/DotGrid";
 import ScrollToTop from "./components/ScrollToTop";
 import "./index.css";
 
-// To do for Tomorrow!
-// separate the navigation bar so that the dot animation is not present on the navbar
-// add hover effects for all the buttons and links
-// polish all the sections 1 by 1 and add animations to them.
-
 function App() {
   return (
     <>

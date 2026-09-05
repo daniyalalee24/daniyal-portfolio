@@ -4,14 +4,16 @@ export default function Hero() {
       <p className="font-mono text-emerald-500 dark:text-emerald-400 text-sm mb-3">
         $ whoami
       </p>
-      <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
+      <h1 className="text-4xl md:text-6xl font-semibold font-mono leading-tight">
         hi, I'm
-        <span className="text-emerald-500 dark:text-emerald-400">
+        <span className="text-emerald-500 dark:text-emerald-400 font-mono">
           {" "}
           Daniyal.
+          {/* Terminal Cursor */}
+          <span className="inline-block w-3 md:w-4 h-[1.1em] align-bottom bg-emerald-500 dark:bg-emerald-400 ml-1 md:ml-2 animate-[pulse_1s_step-start_infinite]"></span>
         </span>
       </h1>
-      <p className="mt-4 text-neutral-600 dark:text-neutral-400 max-w-xl leading-relaxed">
+      <p className="mt-4 dark:text-white text-black max-w-xl leading-relaxed">
         Aspiring Full-stack developer skilled in React.js, Node.js, Express.js,
         and MongoDB. Software Engineering graduate seeking an internship or
         full-stack developer role.

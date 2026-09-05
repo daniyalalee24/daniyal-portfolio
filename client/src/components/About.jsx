@@ -5,9 +5,15 @@ export default function About() {
       className="py-16 border-t border-neutral-200 dark:border-neutral-800"
     >
       <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
-        01 · about
+        <span className="text-emerald-500 dark:text-emerald-400"> 01 </span>
+        about
       </h2>
-      <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed max-w-2xl">
+
+      <h2 className="text-4xl font-medium dark:text-white font-mono mb-8">
+        whoami?
+      </h2>
+
+      <p className="dark:text-white text-black leading-relaxed max-w-2xl">
         Software Engineering graduate with hands-on experience building and
         deploying full-stack web applications using React.js, Node.js,
         Express.js, and MongoDB. Skilled in developing RESTful APIs,

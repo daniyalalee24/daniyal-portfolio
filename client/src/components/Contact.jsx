@@ -20,18 +20,24 @@ export default function Contact() {
       setStatus("sent");
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
+      console.error(err);
       setStatus("error");
     }
   };
 
   return (
-    <section id="contact" className="py-16 border-t border-neutral-800">
+    <section
+      id="contact"
+      className="py-16 border-t border-neutral-200 dark:border-neutral-800"
+    >
       <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
-        04 · contact
+        <span className="text-emerald-500 dark:text-emerald-400"> 04 </span>
+        contact
       </h2>
-      <p className="text-neutral-600 dark:text-neutral-400 mb-6">
-        Open to internships and full-stack roles — reach out.
-      </p>
+      <h2 className="text-2xl font-medium text-white font-mono mb-8">
+        Open to internships Or full-stack roles — reach out.
+      </h2>
+
       <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
         <input
           name="name"
@@ -57,20 +63,22 @@ export default function Contact() {
           onChange={handleChange}
           required
           rows={4}
-          className="w-full bg-neutral-900 border border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
+          className="w-full bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none"
         />
         <button
           type="submit"
           disabled={status === "sending"}
-          className="bg-emerald-500 text-black text-sm font-medium rounded px-4 py-2 hover:bg-emerald-400"
+          className="bg-emerald-500 text-black text-sm font-medium rounded px-4 py-2 hover:bg-emerald-400 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           {status === "sending" ? "sending..." : "send message"}
         </button>
         {status === "sent" && (
-          <p className="text-emerald-400 text-sm">Message sent — thanks!</p>
+          <p className="text-emerald-600 dark:text-emerald-400 text-sm">
+            Message sent — thanks!
+          </p>
         )}
         {status === "error" && (
-          <p className="text-red-400 text-sm">
+          <p className="text-red-600 dark:text-red-400 text-sm">
             Something went wrong. Try again.
           </p>
         )}
