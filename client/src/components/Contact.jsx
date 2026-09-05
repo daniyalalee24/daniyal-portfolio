@@ -34,7 +34,7 @@ export default function Contact() {
         <span className="text-emerald-500 dark:text-emerald-400"> 04 </span>
         contact
       </h2>
-      <h2 className="text-2xl font-medium text-white font-mono mb-8">
+      <h2 className="text-2xl font-medium dark:text-white font-mono mb-8">
         Open to internships Or full-stack roles — reach out.
       </h2>
 
