@@ -7,36 +7,51 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import DotGrid from "./components/DotGrid";
+import ScrollToTop from "./components/ScrollToTop";
 import "./index.css";
 
 // To do for Tomorrow!
-
 // separate the navigation bar so that the dot animation is not present on the navbar
 // add hover effects for all the buttons and links
 // polish all the sections 1 by 1 and add animations to them.
 
 function App() {
   return (
-    <div className="max-w-5xl mx-auto px-6 md:px-10">
-      <DotGrid />
+    <>
+      {/* Separate full-width navbar */}
       <Nav />
-      <div className="animate-fadeInUp">
-        <Hero />
-      </div>
-      <div className="animate-fadeInUp">
-        <About />
-      </div>
-      <div className="animate-fadeInUp">
-        <Projects />
-      </div>
-      <div className="animate-fadeInUp">
-        <Skills />
-      </div>
-      <div className="animate-fadeInUp">
-        <Contact />
-      </div>
-      <Footer />
-    </div>
+
+      {/* Animated portfolio area */}
+      <main className="relative overflow-hidden">
+        <DotGrid />
+
+        <div className="relative z-10 mx-auto max-w-5xl px-6 md:px-10">
+          <div className="animate-fadeInUp">
+            <Hero />
+          </div>
+
+          <div className="animate-fadeInUp">
+            <About />
+          </div>
+
+          <div className="animate-fadeInUp">
+            <Projects />
+          </div>
+
+          <div className="animate-fadeInUp">
+            <Skills />
+          </div>
+
+          <div className="animate-fadeInUp">
+            <Contact />
+          </div>
+
+          <Footer />
+        </div>
+        <ScrollToTop />
+      </main>
+    </>
   );
 }
+
 export default App;
