@@ -5,9 +5,9 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
 import DotGrid from "./components/DotGrid";
 import ScrollToTop from "./components/ScrollToTop";
+
 import "./index.css";
 
 function App() {
@@ -26,11 +26,11 @@ function App() {
           </div>
 
           <div className="animate-fadeInUp">
-            <About />
+            <Projects />
           </div>
 
           <div className="animate-fadeInUp">
-            <Projects />
+            <About />
           </div>
 
           <div className="animate-fadeInUp">
