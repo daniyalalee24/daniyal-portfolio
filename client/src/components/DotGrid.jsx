@@ -26,7 +26,7 @@ export default function DotGrid() {
     <>
       {/* Base dots */}
       <div
-        className="pointer-events-none fixed inset-0 -z-20 text-neutral-400/15 dark:text-neutral-500/10"
+        className="pointer-events-none fixed inset-0 -z-20 text-neutral-400/25 dark:text-neutral-500/15"
         style={dotStyle}
       />
 

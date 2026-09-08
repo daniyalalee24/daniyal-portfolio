@@ -27,44 +27,64 @@ export default function Hero() {
   const typedName = typedText.slice(prefix.length);
 
   return (
-    <section id="home" className="py-20">
-      <p className="font-mono text-emerald-500 dark:text-emerald-400 text-sm mb-3">
-        $ whoami
-      </p>
+    <section id="home" className="py-16 md:py-20">
+      <div className="flex items-center gap-2 w-fit rounded-full px-3 py-1.5 font-mono text-xs mb-4 border bg-neutral-50 border-neutral-300 text-neutral-600 dark:bg-[#121212] dark:border-neutral-800 dark:text-neutral-400">
+        {/* Glowing Green Dot */}
+        <span className="relative flex h-1.5 w-1.5 shrink-0">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-25" />
+          <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500 shadow-[0_0_8px_#10b981]" />
+        </span>
 
-      <h1 className="text-4xl md:text-6xl font-semibold font-mono leading-tight">
+        {/* Text Content */}
+        <span>
+          <strong className="font-mono text-neutral-800 dark:text-neutral-200 ">
+            AVAILABLE
+          </strong>
+          <span className="mx-1.5 text-neutral-300 dark:text-neutral-600">
+            ·
+          </span>
+          <span className="font-mono text-neutral-600 dark:text-neutral-400">
+            Open to internships & junior roles
+          </span>
+        </span>
+      </div>
+      <h1 className="text-4xl md:text-6xl font-semibold font-mono leading-tight m-0">
         {typedPrefix}
-
         <span className="text-emerald-500 dark:text-emerald-400">
           {typedName}
         </span>
-
-        <span className="inline-block w-3 md:w-4 h-[1.1em] align-bottom bg-emerald-500 dark:bg-emerald-400 ml-1 md:ml-2 animate-[pulse_1s_step-start_infinite]" />
+        <span className="inline-block w-2 md:w-3 h-[1em] align-middle bg-emerald-500 dark:bg-emerald-400 ml-1 md:ml-2 animate-[pulse_1s_step-start_infinite]" />
       </h1>
-
-      <p className="mt-4 dark:text-white text-black max-w-xl leading-relaxed">
-        Aspiring Full-stack developer skilled in React.js, Node.js, Express.js,
-        and MongoDB. Software Engineering graduate seeking an internship or
-        full-stack developer role.
+      <p className="text-sm font-mono text-neutral-600 dark:text-neutral-500 mt-3 mb-5">
+        Full-Stack Developer
       </p>
-
+      <p className="mt-0 dark:text-white text-black max-w-xl leading-relaxed">
+        I enjoy taking an idea and turning it into something people can actually
+        use. I mainly work with{" "}
+        <span className="text-emerald-500 dark:text-emerald-400">
+          React.js, Node.js, Express.js, and MongoDB
+        </span>
+        , and I’m looking for a team where I can contribute to real projects,
+        tackle new challenges, and keep learning along the way.
+      </p>
       {/* Button Row Container */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mt-8 max-w-2xl">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mt-7 max-w-2xl">
         {/* Left Side: Main CTAs */}
+
         <div className="flex gap-3">
           <a
             href="#projects"
-            className="dark:bg-emerald-500 text-black text-sm font-medium border rounded-lg px-4 py-2 border-emerald-500 dark:hover:bg-black hover:text-emerald-400 bg-emerald-500 hover:bg-white transition-colors"
+            className="inline-flex h-10 items-center justify-center rounded-lg border border-emerald-500 bg-emerald-600 px-4 font-mono text-sm font-medium text-black transition-colors hover:bg-white hover:text-emerald-500 dark:bg-emerald-500 dark:hover:bg-black dark:hover:text-emerald-400"
           >
-            view projects
+            View Projects
           </a>
 
           <a
             href="/Daniyal_Resume.pdf"
             download
-            className="border border-neutral-300 dark:border-neutral-700 text-sm rounded-lg px-4 py-2 hover:border-emerald-500 hover:text-emerald-500 bg-white dark:hover:border-emerald-400 dark:hover:text-emerald-400 dark:bg-black transition-colors"
+            className="inline-flex h-10 items-center justify-center rounded-lg border border-neutral-400 bg-white px-4 font-mono text-sm font-medium text-black transition-colors hover:border-emerald-500 hover:text-emerald-500 dark:border-neutral-700 dark:bg-black dark:text-white dark:hover:border-emerald-400 dark:hover:text-emerald-400"
           >
-            download resume
+            My Resume
           </a>
         </div>
 
@@ -76,10 +96,11 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="flex items-center justify-center hover:scale-110 transition-transform"
+            className="w-8 h-8 flex items-center justify-center hover:scale-110 transition-transform"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
               width="36"
               height="36"
               viewBox="0 0 24 24"
@@ -99,10 +120,11 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="flex items-center justify-center hover:scale-110 transition-transform"
+            className="w-8 h-8 flex items-center justify-center hover:scale-110 transition-transform"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
               width="32"
               height="32"
               viewBox="0 0 256 256"
@@ -124,10 +146,11 @@ export default function Hero() {
           <a
             href="mailto:daniyal.alee19@gmail.com"
             aria-label="Email"
-            className="flex items-center justify-center hover:scale-110 transition-transform"
+            className="w-8 h-8 flex items-center justify-center hover:scale-110 transition-transform"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
               width="36"
               height="28"
               viewBox="0 0 256 193"

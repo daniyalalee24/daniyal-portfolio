@@ -27,7 +27,7 @@ export default function Nav() {
 
   return (
     <nav className="w-full bg-white dark:bg-black border-b border-neutral-200 dark:border-neutral-800">
-      <div className="mx-auto max-w-5xl px-6 md:px-10">
+      <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="relative flex items-center justify-between py-6">
           {/* Logo - Left */}
           <span className="font-mono text-sm text-neutral-900 dark:text-white">

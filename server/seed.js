@@ -5,7 +5,7 @@ const Project = require("./models/Project");
 const projects = [
   {
     order: 1,
-    title: "LUMÉ — E-Commerce Web Application",
+    title: "LUMÉ — E-Commerce Web App",
     description:
       "Full-stack e-commerce platform with JWT auth, role-based authorization, and complete order management.",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     order: 2,
-    title: "TaskFlow — Task Management Application",
+    title: "TaskFlow — Task Management App",
     description:
       "Full-stack task manager with user-specific data, filtering, and dark mode support.",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     order: 3,
-    title: "Beautify — Home Beauty Services",
+    title: "Beautify — Home Beauty Services App",
     description:
       "Final year project: responsive service booking platform for clients and admins.",
     techStack: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],

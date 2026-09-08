@@ -20,7 +20,7 @@ function App() {
       <main className="relative overflow-hidden">
         <DotGrid />
 
-        <div className="relative z-10 mx-auto max-w-5xl px-6 md:px-10">
+        <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-10">
           <div className="animate-fadeInUp">
             <Hero />
           </div>
