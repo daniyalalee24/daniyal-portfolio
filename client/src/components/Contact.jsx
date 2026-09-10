@@ -30,8 +30,8 @@ export default function Contact() {
       id="contact"
       className="py-16 border-t border-neutral-200 dark:border-neutral-800"
     >
-      <h2 className="text-sm font-mono text-neutral-400 dark:text-neutral-500 mb-6">
-        <span className="text-emerald-500 dark:text-emerald-400"> 04 </span>
+      <h2 className="text-sm font-mono text-neutral-600 dark:text-neutral-500 mb-6">
+        <span className="text-emerald-500 dark:text-emerald-400"> 05 </span>
         contact
       </h2>
       <h2 className="text-2xl font-medium dark:text-white font-mono mb-8">

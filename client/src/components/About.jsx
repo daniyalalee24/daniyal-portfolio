@@ -5,7 +5,7 @@ export default function About() {
       className="py-16 border-t border-neutral-200 dark:border-neutral-800"
     >
       <h2 className="text-sm font-mono text-neutral-600 dark:text-neutral-500 mb-6">
-        <span className="text-emerald-500 dark:text-emerald-400"> 01 </span>
+        <span className="text-emerald-500 dark:text-emerald-400"> 03 </span>
         Journey
       </h2>
 
