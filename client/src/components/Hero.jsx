@@ -55,7 +55,7 @@ export default function Hero() {
         </span>
         <span className="inline-block w-2 md:w-3 h-[1em] align-middle bg-emerald-500 dark:bg-emerald-400 ml-1 md:ml-2 animate-[pulse_1s_step-start_infinite]" />
       </h1>
-      <p className="text-sm font-mono text-neutral-600 dark:text-neutral-500 mt-3 mb-5">
+      <p className="text-sm font-mono text-neutral-600 dark:text-neutral-400 mt-3 mb-5">
         Full-Stack Developer
       </p>
       <p className="mt-0 dark:text-white text-black max-w-xl leading-relaxed">
