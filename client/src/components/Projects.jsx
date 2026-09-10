@@ -22,13 +22,13 @@ export default function Projects() {
   return (
     <section id="projects" className="py-16 md:py-20">
       {/* Section Label */}
-      <p className="mb-3 font-mono text-sm text-neutral-600 dark:text-neutral-500">
+      <p className="mb-3 font-mono text-md text-neutral-600 dark:text-neutral-500">
         <span className="text-emerald-500 dark:text-emerald-400">02</span>{" "}
         Crafted Web Projects
       </p>
 
       {/* Section Heading */}
-      <h2 className="mb-6 font-mono text-2xl font-medium text-neutral-900 dark:text-white">
+      <h2 className="mb-6 font-mono text-3xl font-lg text-neutral-900 dark:text-white">
         Explore some of the projects I’ve built.
       </h2>
 

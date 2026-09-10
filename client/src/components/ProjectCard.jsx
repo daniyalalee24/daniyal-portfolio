@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
   if (!project) return null;
 
   return (
-    <div className="group relative flex h-full flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500/60 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:border-emerald-500/60">
+    <div className="group relative flex h-full flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-emerald-500 dark:border-neutral-700 dark:bg-neutral-950 dark:hover:border-emerald-400">
       {/* Subtle hover glow */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,theme(colors.emerald.500/10),transparent_50%)] opacity-0 transition-opacity duration-300 group-hover:opacity-40" />
 
