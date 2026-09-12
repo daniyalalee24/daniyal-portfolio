@@ -132,7 +132,7 @@ export default function About() {
                 </p>
               </div>
 
-              <span className="shrink-0 rounded-full border dark:hover:border-emerald-500 hover:border-emerald-600 dark:hover:text-emerald-500 hover:text-emerald-600 dark:bg-black bg-white  border-neutral-300 dark:border-neutral-700 px-3 py-1 text-xs font-mono text-neutral-600 dark:text-neutral-400">
+              <span className="shrink-0 rounded-lg border dark:border-neutral-700  dark:bg-black   dark:hover:bg-black dark:hover:text-neutral-100 hover:border-emerald-500 hover:text-emerald-700 bg-white border-neutral-400 px-3 py-1 text-xs font-mono dark:text-neutral-300">
                 Open to Opportunities
               </span>
             </div>
