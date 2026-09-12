@@ -63,10 +63,10 @@ export default function Hero() {
         Full-Stack Developer
       </p>
 
-      <p className="mt-0 dark:text-white text-black max-w-xl leading-relaxed">
+      <p className="mt-0 dark:text-white text-black max-w-xl leading-relaxed text-justify">
         I enjoy taking an idea and turning it into something people can actually
         use. I mainly work with{" "}
-        <span className="text-emerald-500 dark:text-emerald-400">
+        <span className="text-emerald-500 dark:text-emerald-400 text-justify">
           React.js, Node.js, Express.js, and MongoDB
         </span>
         , and I’m looking for a team where I can contribute to real projects,

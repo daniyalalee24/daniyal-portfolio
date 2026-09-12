@@ -15,7 +15,7 @@ export default function About() {
           Education & Experience
         </h3>
 
-        <p className="mt-4 text-black dark:text-white max-w-3xl leading-relaxed">
+        <p className="mt-4 max-w-2xl text-black dark:text-white leading-relaxed text-justify">
           I am a Software Engineering graduate with hands-on experience
           developing and deploying web applications through personal and
           academic projects. Comfortable working across the development process,
@@ -175,7 +175,7 @@ export default function About() {
                     :
                   </strong>{" "}
                   Open to{" "}
-                  <span className="text-emerald-500 font-bold">
+                  <span className="text-emerald-500 font-bold font-mono">
                     internships
                   </span>{" "}
                   and where I can learn from a team and continue improving my
