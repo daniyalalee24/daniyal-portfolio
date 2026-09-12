@@ -37,7 +37,7 @@ export default function Nav() {
 
           {/* Desktop Navigation - Center */}
           <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-2">
-            <NavItem href="#about" label="about" />
+            <NavItem href="#about" label="My Journey" />
             <NavItem href="#projects" label="projects" />
             <NavItem href="#skills" label="skills" />
             <NavItem href="#contact" label="contact" />

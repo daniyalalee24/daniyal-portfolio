@@ -15,10 +15,13 @@ export default function About() {
           Education & Experience
         </h3>
 
-        <p className="mt-4 text-neutral-600 dark:text-neutral-400 max-w-2xl leading-relaxed">
-          Software Engineering graduate with hands-on experience building and
-          deploying full-stack web applications using React.js, Node.js,
-          Express.js, and MongoDB.
+        <p className="mt-4 text-black dark:text-white max-w-3xl leading-relaxed">
+          I am a Software Engineering graduate with hands-on experience
+          developing and deploying web applications through personal and
+          academic projects. Comfortable working across the development process,
+          from building user interfaces to handling backend logic and databases.
+          Looking to bring my problem-solving mindset and practical development
+          experience to a team where I can contribute and continue growing.
         </p>
       </div>
 
@@ -71,7 +74,7 @@ export default function About() {
                 ].map((item) => (
                   <span
                     key={item}
-                    className="px-3 py-1 rounded-full border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-600 dark:text-neutral-400 font-mono"
+                    className="px-3 py-1 rounded-full border border-neutral-200 dark:border-neutral-800 hover:border-emerald-500 hover:text-emerald-600 dark:hover:border-emerald-500 dark:hover:text-emerald-500 dark:bg-black bg-white text-xs text-neutral-600 dark:text-neutral-400 font-mono"
                   >
                     {item}
                   </span>
@@ -111,26 +114,26 @@ export default function About() {
             </h4>
 
             <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
-              Hands-on experience turning ideas into production-ready
-              applications.
+              Currently building projects and looking for my first opportunity
+              in web development.
             </p>
           </div>
 
-          {/* Experience Card */}
-          <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-950/40 p-6 md:p-7">
+          {/* Current Journey Card */}
+          <div className="dark:bg-black bg-white rounded-xl border dark:hover:border-emerald-500 hover:border-emerald-600 border-neutral-200 dark:border-neutral-800 p-6 md:p-7">
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h5 className="text-xl font-medium text-neutral-900 dark:text-white">
-                  Full Stack Developer
+                  Aspiring Full Stack Developer
                 </h5>
 
                 <p className="mt-1 text-sm font-mono text-neutral-500 dark:text-neutral-400">
-                  @ Specto
+                  Currently building & learning
                 </p>
               </div>
 
-              <span className="shrink-0 rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-xs font-mono text-neutral-600 dark:text-neutral-400">
-                3 Months
+              <span className="shrink-0 rounded-full border dark:hover:border-emerald-500 hover:border-emerald-600 dark:hover:text-emerald-500 hover:text-emerald-600 dark:bg-black bg-white  border-neutral-300 dark:border-neutral-700 px-3 py-1 text-xs font-mono text-neutral-600 dark:text-neutral-400">
+                Open to Opportunities
               </span>
             </div>
 
@@ -139,11 +142,11 @@ export default function About() {
                 <span className="text-emerald-500 mt-0.5">→</span>
 
                 <p>
-                  <strong className="text-neutral-900 dark:text-neutral-200">
-                    UI/UX Implementation:
+                  <strong className="text-neutral-900 dark:text-neutral-200 font-mono">
+                    Hands-On Learning:
                   </strong>{" "}
-                  Translated Figma designs into responsive, mobile-first
-                  interfaces with attention to visual accuracy.
+                  Learning web development by building projects and working
+                  through real problems instead of relying only on tutorials.
                 </p>
               </li>
 
@@ -151,11 +154,12 @@ export default function About() {
                 <span className="text-emerald-500 mt-0.5">→</span>
 
                 <p>
-                  <strong className="text-neutral-900 dark:text-neutral-200">
-                    Full-Stack Development:
+                  <strong className="text-neutral-900 dark:text-neutral-200 font-mono">
+                    MERN Projects:
                   </strong>{" "}
-                  Worked across frontend and backend technologies, connecting
-                  user interfaces with server-side logic and APIs.
+                  Building full-stack applications with React, Node.js,
+                  Express.js, and MongoDB to strengthen my frontend and backend
+                  skills.
                 </p>
               </li>
 
@@ -163,17 +167,25 @@ export default function About() {
                 <span className="text-emerald-500 mt-0.5">→</span>
 
                 <p>
-                  <strong className="text-neutral-900 dark:text-neutral-200">
-                    Application Security:
+                  <strong className="text-neutral-900 dark:text-neutral-200 font-mono">
+                    Looking for{" "}
+                    <span className="text-emerald-500 font-mono">
+                      My First Role
+                    </span>
+                    :
                   </strong>{" "}
-                  Implemented authentication and security practices to help
-                  protect application data and user access.
+                  Open to{" "}
+                  <span className="text-emerald-500 font-bold">
+                    internships
+                  </span>{" "}
+                  and where I can learn from a team and continue improving my
+                  skills.
                 </p>
               </li>
             </ul>
 
             <div className="mt-7 pt-5 border-t border-neutral-200 dark:border-neutral-800">
-              <p className="text-xs font-mono text-neutral-500 dark:text-neutral-500">
+              <p className="text-xs font-mono text-neutral-500 dark:text-neutral-500 hover:text-emerald-500 dark:hover:text-emerald-500">
                 React.js · Node.js · Express.js · MongoDB
               </p>
             </div>
